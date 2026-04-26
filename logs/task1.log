@@ -1,0 +1,516 @@
+2026-04-13 16:31:44,305 INFO  org.apache.log4j.chainsaw.Main - The program has been successfully started
+2026-04-13 16:31:44,317 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 16:31:44,317 INFO  org.apache.log4j.chainsaw.Main - File has been successfully read
+2026-04-13 16:31:44,318 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;25;35;44;55;60
+2026-04-13 16:31:44,318 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:31:44,319 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:31:44,320 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:31:44,321 INFO  org.apache.log4j.chainsaw.Main - Processing line 
+2026-04-13 16:31:44,322 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 16:31:44,322 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,326 INFO  org.apache.log4j.chainsaw.Main - Processing line 42
+2026-04-13 16:31:44,326 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:31:44,326 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:31:44,327 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:31:44,327 INFO  org.apache.log4j.chainsaw.Main - Processing line -5;-10;-15;-20
+2026-04-13 16:31:44,327 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:31:44,327 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:31:44,327 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,328 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,328 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,328 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,329 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,329 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,329 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,329 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,329 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:31:44,330 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:31:44,330 INFO  org.apache.log4j.chainsaw.Main - Processing line a;d;ghi
+2026-04-13 16:31:44,330 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:31:44,334 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,334 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;2;3;4;5k
+2026-04-13 16:31:44,335 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:31:44,335 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,335 INFO  org.apache.log4j.chainsaw.Main - Processing line 1a;20;;40;50
+2026-04-13 16:31:44,335 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:31:44,336 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,336 INFO  org.apache.log4j.chainsaw.Main - Processing line ;;;;
+2026-04-13 16:31:44,337 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:31:44,337 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 16:31:44,337 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:46)
+2026-04-13 16:31:44,337 INFO  org.apache.log4j.chainsaw.Main - Processing line 5,4,3,2,5,1;
+2026-04-13 16:31:44,338 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:31:44,338 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,338 INFO  org.apache.log4j.chainsaw.Main - Processing line    ;   ;   ;
+2026-04-13 16:31:44,338 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 16:31:44,339 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:31:44,339 INFO  org.apache.log4j.chainsaw.Main - Program has been finished
+2026-04-13 16:33:57,474 INFO  org.apache.log4j.chainsaw.Main - The program has been successfully started
+2026-04-13 16:33:57,485 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 16:33:57,485 INFO  org.apache.log4j.chainsaw.Main - File has been successfully read
+2026-04-13 16:33:57,486 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;25;35;44;55;60
+2026-04-13 16:33:57,486 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:33:57,487 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:33:57,488 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:33:57,488 INFO  org.apache.log4j.chainsaw.Main - Processing line 
+2026-04-13 16:33:57,488 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 16:33:57,489 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,492 INFO  org.apache.log4j.chainsaw.Main - Processing line 42
+2026-04-13 16:33:57,492 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:33:57,492 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:33:57,492 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:33:57,492 INFO  org.apache.log4j.chainsaw.Main - Processing line -5;-10;-15;-20
+2026-04-13 16:33:57,492 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:33:57,492 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:33:57,493 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,493 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,493 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,495 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,495 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,495 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,496 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,496 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,496 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:33:57,497 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:33:57,497 INFO  org.apache.log4j.chainsaw.Main - Processing line a;d;ghi
+2026-04-13 16:33:57,497 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:33:57,505 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,505 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;2;3;4;5k
+2026-04-13 16:33:57,506 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:33:57,506 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,507 INFO  org.apache.log4j.chainsaw.Main - Processing line 1a;20;;40;50
+2026-04-13 16:33:57,507 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:33:57,508 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,509 INFO  org.apache.log4j.chainsaw.Main - Processing line ;;;;
+2026-04-13 16:33:57,509 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:33:57,509 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 16:33:57,510 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:46)
+2026-04-13 16:33:57,510 INFO  org.apache.log4j.chainsaw.Main - Processing line 5,4,3,2,5,1;
+2026-04-13 16:33:57,510 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:33:57,510 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,511 INFO  org.apache.log4j.chainsaw.Main - Processing line    ;   ;   ;
+2026-04-13 16:33:57,511 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 16:33:57,511 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:33:57,511 INFO  org.apache.log4j.chainsaw.Main - Program has been finished
+2026-04-13 16:48:07,573 INFO  org.apache.log4j.chainsaw.Main - The program has been successfully started
+2026-04-13 16:48:07,650 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 16:48:07,651 INFO  org.apache.log4j.chainsaw.Main - File has been successfully read
+2026-04-13 16:48:07,652 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;25;35;44;55;60
+2026-04-13 16:48:07,652 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:07,669 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:07,680 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:07,680 INFO  org.apache.log4j.chainsaw.Main - Processing line 
+2026-04-13 16:48:07,681 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 16:48:07,682 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,686 INFO  org.apache.log4j.chainsaw.Main - Processing line 42
+2026-04-13 16:48:07,686 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:07,687 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:07,687 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:07,687 INFO  org.apache.log4j.chainsaw.Main - Processing line -5;-10;-15;-20
+2026-04-13 16:48:07,688 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:07,688 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:07,689 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,690 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,690 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,690 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,691 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,691 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,691 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,692 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,692 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:07,693 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:07,693 INFO  org.apache.log4j.chainsaw.Main - Processing line a;d;ghi
+2026-04-13 16:48:07,694 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:07,707 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,708 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;2;3;4;5k
+2026-04-13 16:48:07,708 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:07,709 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,709 INFO  org.apache.log4j.chainsaw.Main - Processing line 1a;20;;40;50
+2026-04-13 16:48:07,710 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:07,710 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,711 INFO  org.apache.log4j.chainsaw.Main - Processing line ;;;;
+2026-04-13 16:48:07,712 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:07,712 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 16:48:07,713 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:46)
+2026-04-13 16:48:07,713 INFO  org.apache.log4j.chainsaw.Main - Processing line 5,4,3,2,5,1;
+2026-04-13 16:48:07,713 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:07,714 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,714 INFO  org.apache.log4j.chainsaw.Main - Processing line    ;   ;   ;
+2026-04-13 16:48:07,715 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 16:48:07,715 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:07,716 INFO  org.apache.log4j.chainsaw.Main - Program has been finished
+2026-04-13 16:48:27,131 INFO  org.apache.log4j.chainsaw.Main - The program has been successfully started
+2026-04-13 16:48:27,144 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 16:48:27,144 INFO  org.apache.log4j.chainsaw.Main - File has been successfully read
+2026-04-13 16:48:27,145 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;25;35;44;55;60
+2026-04-13 16:48:27,146 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:27,147 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:27,148 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:27,148 INFO  org.apache.log4j.chainsaw.Main - Processing line 
+2026-04-13 16:48:27,149 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 16:48:27,150 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,153 INFO  org.apache.log4j.chainsaw.Main - Processing line 42
+2026-04-13 16:48:27,153 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:27,153 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:27,154 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:27,154 INFO  org.apache.log4j.chainsaw.Main - Processing line -5;-10;-15;-20
+2026-04-13 16:48:27,154 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:27,154 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 16:48:27,154 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,154 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,154 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,155 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,155 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,155 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,155 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,155 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,156 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 16:48:27,156 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 16:48:27,156 INFO  org.apache.log4j.chainsaw.Main - Processing line a;d;ghi
+2026-04-13 16:48:27,157 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:27,162 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,164 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;2;3;4;5k
+2026-04-13 16:48:27,164 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:27,164 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,165 INFO  org.apache.log4j.chainsaw.Main - Processing line 1a;20;;40;50
+2026-04-13 16:48:27,165 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:27,166 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,166 INFO  org.apache.log4j.chainsaw.Main - Processing line ;;;;
+2026-04-13 16:48:27,167 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 16:48:27,167 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 16:48:27,168 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:46)
+2026-04-13 16:48:27,169 INFO  org.apache.log4j.chainsaw.Main - Processing line 5,4,3,2,5,1;
+2026-04-13 16:48:27,169 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 16:48:27,170 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,170 INFO  org.apache.log4j.chainsaw.Main - Processing line    ;   ;   ;
+2026-04-13 16:48:27,171 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 16:48:27,171 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 16:48:27,172 INFO  org.apache.log4j.chainsaw.Main - Program has been finished
+2026-04-13 18:09:13,467 INFO  org.apache.log4j.chainsaw.Main - The program has been successfully started
+2026-04-13 18:09:13,475 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 18:09:13,475 INFO  org.apache.log4j.chainsaw.Main - File has been successfully read
+2026-04-13 18:09:13,475 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;25;35;44;55;60
+2026-04-13 18:09:13,476 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 18:09:13,476 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 18:09:13,494 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 18:09:13,494 INFO  org.apache.log4j.chainsaw.Main - Processing line 
+2026-04-13 18:09:13,494 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 18:09:13,495 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,497 INFO  org.apache.log4j.chainsaw.Main - Processing line 42
+2026-04-13 18:09:13,497 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 18:09:13,497 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 18:09:13,497 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 18:09:13,497 INFO  org.apache.log4j.chainsaw.Main - Processing line -5;-10;-15;-20
+2026-04-13 18:09:13,497 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 18:09:13,497 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 18:09:13,497 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,497 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 18:09:13,498 INFO  org.apache.log4j.chainsaw.Main - Array has been sorted
+2026-04-13 18:09:13,498 INFO  org.apache.log4j.chainsaw.Main - Processing line a;d;ghi
+2026-04-13 18:09:13,498 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 18:09:13,502 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,502 INFO  org.apache.log4j.chainsaw.Main - Processing line 1;2;3;4;5k
+2026-04-13 18:09:13,502 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 18:09:13,502 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,503 INFO  org.apache.log4j.chainsaw.Main - Processing line 1a;20;;40;50
+2026-04-13 18:09:13,503 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 18:09:13,503 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,503 INFO  org.apache.log4j.chainsaw.Main - Processing line ;;;;
+2026-04-13 18:09:13,503 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 18:09:13,503 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 18:09:13,504 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:46)
+2026-04-13 18:09:13,504 INFO  org.apache.log4j.chainsaw.Main - Processing line 5,4,3,2,5,1;
+2026-04-13 18:09:13,504 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 18:09:13,504 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,504 INFO  org.apache.log4j.chainsaw.Main - Processing line    ;   ;   ;
+2026-04-13 18:09:13,504 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 18:09:13,505 ERROR org.apache.log4j.chainsaw.Main - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 18:09:13,505 INFO  org.apache.log4j.chainsaw.Main - Program has been finished
+2026-04-13 23:20:26,025 INFO  com.lena.task.App - The program has been successfully started
+2026-04-13 23:20:26,038 INFO  com.lena.task.filereader.impl.AdvancedFileReaderImpl - Successfully read lines from file. Amount10
+2026-04-13 23:20:26,038 INFO  com.lena.task.App - File has been successfully read
+2026-04-13 23:20:26,038 INFO  com.lena.task.App - Processing line 1;25;35;44;55;60
+2026-04-13 23:20:26,039 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 23:20:26,039 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 23:20:26,040 INFO  com.lena.task.App - Array has been sorted
+2026-04-13 23:20:26,040 INFO  com.lena.task.App - Processing line 
+2026-04-13 23:20:26,041 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-13 23:20:26,041 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Line is null or blank
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:14)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,044 INFO  com.lena.task.App - Processing line 42
+2026-04-13 23:20:26,044 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 23:20:26,044 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 23:20:26,045 INFO  com.lena.task.App - Array has been sorted
+2026-04-13 23:20:26,045 INFO  com.lena.task.App - Processing line -5;-10;-15;-20
+2026-04-13 23:20:26,045 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 23:20:26,045 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-13 23:20:26,046 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,046 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,046 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,046 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,046 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,047 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,047 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,048 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,048 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-13 23:20:26,048 INFO  com.lena.task.App - Array has been sorted
+2026-04-13 23:20:26,048 INFO  com.lena.task.App - Processing line a;d;ghi
+2026-04-13 23:20:26,048 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 23:20:26,057 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element 'a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,058 INFO  com.lena.task.App - Processing line 1;2;3;4;5k
+2026-04-13 23:20:26,058 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 23:20:26,059 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5k' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,059 INFO  com.lena.task.App - Processing line 1a;20;;40;50
+2026-04-13 23:20:26,060 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 23:20:26,060 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '1a' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,061 INFO  com.lena.task.App - Processing line ;;;;
+2026-04-13 23:20:26,061 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-13 23:20:26,061 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-13 23:20:26,062 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Factory get invalid array
+	at com.lena.task.factory.impl.IntArrayFactoryImpl.createIntArray(IntArrayFactoryImpl.java:14)
+	at com.lena.task.App.main(App.java:45)
+2026-04-13 23:20:26,062 INFO  com.lena.task.App - Processing line 5,4,3,2,5,1;
+2026-04-13 23:20:26,063 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-13 23:20:26,063 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Cannot parse element '5,4,3,2,5,1' to integer
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:32)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,064 INFO  com.lena.task.App - Processing line    ;   ;   ;
+2026-04-13 23:20:26,064 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-13 23:20:26,064 ERROR com.lena.task.App - Error processing line
+com.lena.task.exception.IntArrayException: Empty element found in line
+	at com.lena.task.fileparser.impl.AdvancedIntParserImpl.parseString(AdvancedIntParserImpl.java:27)
+	at com.lena.task.App.main(App.java:44)
+2026-04-13 23:20:26,065 INFO  com.lena.task.App - Program has been finished
+2026-04-26 23:48:27,099 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-26 23:48:27,105 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-26 23:48:27,105 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-26 23:48:27,106 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-26 23:48:27,108 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:15:11,422 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:11,425 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-27 00:15:19,133 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:19,136 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:22,504 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:27,533 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:33,016 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:15:41,400 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,515 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,519 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,519 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,519 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:54:16,521 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:54:16,536 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,542 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,543 INFO  com.lena.task.entity.IntArray - The value has been updated
+2026-04-27 00:54:16,545 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,549 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,551 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,552 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,554 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,572 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-27 00:54:16,574 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,577 ERROR com.lena.task.factory.impl.IntArrayFactoryImpl - Factory get invalid array
+2026-04-27 00:54:16,586 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-27 00:54:16,590 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-27 00:54:16,590 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-27 00:54:16,592 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line is null or blank
+2026-04-27 00:54:16,595 INFO  com.lena.task.fileparser.impl.AdvancedIntParserImpl - Line was parsed into array
+2026-04-27 00:54:16,597 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Cannot parse element to integer
+2026-04-27 00:54:16,606 ERROR com.lena.task.fileparser.impl.AdvancedIntParserImpl - Empty element found
+2026-04-27 00:54:16,617 ERROR com.lena.task.filereader.impl.AdvancedFileReaderImpl - File path is null or empty
+2026-04-27 00:54:16,619 ERROR com.lena.task.filereader.impl.AdvancedFileReaderImpl - File path is null or empty
+2026-04-27 00:54:16,619 ERROR com.lena.task.filereader.impl.AdvancedFileReaderImpl - File path is null or empty
+2026-04-27 00:54:16,629 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,629 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,629 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,630 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:54:16,630 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,630 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,630 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:54:16,630 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:54:16,634 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:54:16,634 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:54:16,634 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
+2026-04-27 00:54:16,634 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:54:16,634 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,634 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,634 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:54:16,635 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:54:16,635 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:54:16,635 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:54:16,635 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
+2026-04-27 00:54:16,635 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:54:16,635 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,635 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:54:16,636 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:54:16,636 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:54:16,636 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:54:16,636 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:54:16,636 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
+2026-04-27 00:54:16,639 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,639 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:16,639 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:39,759 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:39,759 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:54:39,759 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:04,735 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:04,735 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:04,735 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:27,016 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:27,016 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:27,016 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:32,802 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:32,802 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:55:32,802 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:58:01,919 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:58:01,919 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:58:01,919 INFO  com.lena.task.entity.IntArray - IntArray has been created
+2026-04-27 00:58:01,923 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:58:01,926 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,926 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,927 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:58:01,929 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:58:01,930 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:58:01,930 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:58:01,930 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
+2026-04-27 00:58:01,930 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:58:01,930 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:58:01,931 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:58:01,931 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
+2026-04-27 00:58:01,931 INFO  com.lena.task.entity.IntArray - Observer attached to IntArray
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Max function has been called
+2026-04-27 00:58:01,931 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Sum function has been called
+2026-04-27 00:58:01,932 INFO  com.lena.task.optionality.impl.IntArrayActionImpl - Average function has been called
+2026-04-27 00:58:01,932 INFO  com.lena.task.warehouse.Warehouse - Added characteristic
+2026-04-27 00:58:01,932 INFO  com.lena.task.observer.impl.ObserverImpl - Warehouse updated
+2026-04-27 00:58:01,932 INFO  com.lena.task.repository.IntArrayRepository - Added array to repository
